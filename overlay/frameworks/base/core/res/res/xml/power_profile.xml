@@ -48,9 +48,12 @@
          preview and capturing approximately 10 full-resolution pictures per
          minute. -->
      <item name="camera.avg">600</item>
-	
-	<!-- Average power used by the camera flash module when on -->
+
+    <!-- Average power used by the camera flash module when on -->
     <item name="camera.flashlight">200</item>
+
+    <item name="audio">60</item>
+    <item name="video">160</item>
     
      <!-- Additional power used when GPS is acquiring a signal -->	
 	<item name="gps.on">27</item>
