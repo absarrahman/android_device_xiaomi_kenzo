@@ -36,7 +36,8 @@ TARGET_KERNEL_CONFIG := kenzo_defconfig
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Sepolicy
-#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
