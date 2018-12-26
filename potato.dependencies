@@ -10,8 +10,11 @@
     "branch": "baked-release"
   },
   {
-    "repository":  "absarrahman/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch": "baked-release"
+    "repository":  "vendor_xiaomi_kenzo",
+    "target_path": "vendor/xiaomi/kenzo"
+  },
+  {
+    "repository":  "vendor_xiaomi_msm8956-common",
+    "target_path": "vendor/xiaomi/msm8956-common"
   }
 ]
