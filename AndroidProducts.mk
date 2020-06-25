@@ -15,3 +15,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/potato_kenzo.mk
+
+COMMON_LUNCH_CHOICES := \
+    potato_kenzo-userdebug
